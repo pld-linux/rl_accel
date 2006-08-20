@@ -1,5 +1,6 @@
 %define		_snap	20060805
 Summary:	ReportLab C accelerator extension
+Summary(pl):	Rozszerzenie akceleratora C dla ReportLaba
 Name:		rl_accel
 Version:	0.58
 Release:	0.%{_snap}.1
@@ -12,7 +13,12 @@ BuildRequires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-ReportLab C accelerator extension, recommended for production use of ReportLab.
+ReportLab C accelerator extension, recommended for production use of
+ReportLab.
+
+%description -l pl
+Rozszerzenie akceleratora C zalecane do produkcyjnego u¿ywania
+ReportLaba.
 
 %prep
 %setup -q -n %{name}-%{version}-%{_snap}
@@ -32,4 +38,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{py_sitedir}/*.so
+%attr(755,root,root) %{py_sitedir}/*.so

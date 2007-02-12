@@ -1,6 +1,6 @@
 %define		_snap	20060805
 Summary:	ReportLab C accelerator extension
-Summary(pl.UTF-8):   Rozszerzenie akceleratora C dla ReportLaba
+Summary(pl.UTF-8):	Rozszerzenie akceleratora C dla ReportLaba
 Name:		rl_accel
 Version:	0.58
 Release:	0.%{_snap}.1

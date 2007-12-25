@@ -1,13 +1,13 @@
-%define		_snap	20060805
+%define		_snap	20071225
 Summary:	ReportLab C accelerator extension
 Summary(pl.UTF-8):	Rozszerzenie akceleratora C dla ReportLaba
 Name:		rl_accel
-Version:	0.58
+Version:	0.61
 Release:	0.%{_snap}.1
 License:	GPL
 Group:		Applications
 Source0:	http://www.reportlab.org/daily/%{name}-%{version}-daily-unix.tgz
-# Source0-md5:	7b0d606bc08caab63cf21b10a417ddda
+# Source0-md5:	9d2f91ebdb82107a10c88447d4389aeb
 URL:		http://www.reportlab.org/downloads.html#rl_accel
 BuildRequires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
